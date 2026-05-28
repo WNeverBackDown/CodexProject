@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.deps/
+.venv/
+config/rules.json
+data/*.jsonl
+data/*.log
+data/*.err.log
+data/catbaby.pid
+data/seen.json
+data/inbox.txt

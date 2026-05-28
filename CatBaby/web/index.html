@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CatBaby</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <div class="brand">CatBaby</div>
+        <div class="muted">本地优惠监测</div>
+      </div>
+      <div class="toolbar">
+        <button id="notifyBtn" class="secondary" type="button">开启通知</button>
+        <button id="clearAlertsBtn" class="secondary" type="button">清空提醒</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel monitor-panel">
+        <div class="panel-head">
+          <div>
+            <h1>提醒</h1>
+            <p id="statusText" class="muted">连接中</p>
+          </div>
+          <div class="metric">
+            <span id="alertCount">0</span>
+            <small>条</small>
+          </div>
+        </div>
+        <div id="alerts" class="alerts"></div>
+      </section>
+
+      <aside class="side">
+        <section class="panel">
+          <div class="panel-head compact">
+            <h2>测试消息</h2>
+          </div>
+          <form id="messageForm" class="stack">
+            <label>
+              群名
+              <input name="room" value="猫猫购物群" autocomplete="off">
+            </label>
+            <label>
+              发送人
+              <input name="sender" value="群友" autocomplete="off">
+            </label>
+            <label>
+              内容
+              <textarea name="content" rows="5">限时好价，主食罐 24 罐到手价 89，https://example.com/deal</textarea>
+            </label>
+            <button type="submit">发送测试</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head compact">
+            <h2>关键词规则</h2>
+            <button id="addRuleBtn" class="secondary small" type="button">新增</button>
+          </div>
+          <form id="rulesForm" class="stack">
+            <div id="rulesList" class="rules-list"></div>
+            <label>
+              去重分钟
+              <input id="dedupeMinutes" type="number" min="0" step="1">
+            </label>
+            <button type="submit">保存规则</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="panel-head compact">
+            <h2>本地入口</h2>
+          </div>
+          <div class="path" id="inboxPath"></div>
+        </section>
+      </aside>
+    </main>
+
+    <template id="ruleTemplate">
+      <fieldset class="rule">
+        <div class="rule-title">
+          <label class="switch">
+            <input data-field="enabled" type="checkbox">
+            <span>启用</span>
+          </label>
+          <button class="ghost remove-rule" type="button">删除</button>
+        </div>
+        <label>
+          名称
+          <input data-field="name" autocomplete="off">
+        </label>
+        <label>
+          关键词
+          <input data-field="terms" autocomplete="off" placeholder="猫粮, 罐头, 冻干">
+        </label>
+        <label>
+          排除词
+          <input data-field="exclude" autocomplete="off" placeholder="已结束, 无货">
+        </label>
+      </fieldset>
+    </template>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "settings": {
+    "dedupe_minutes": 30,
+    "max_alerts": 200
+  },
+  "rules": [
+    {
+      "id": "cat-food",
+      "name": "猫粮和主食罐",
+      "enabled": true,
+      "terms": ["猫粮", "主食罐", "罐头", "冻干"],
+      "exclude": ["已结束", "过期", "无货"]
+    },
+    {
+      "id": "cat-litter",
+      "name": "猫砂",
+      "enabled": true,
+      "terms": ["猫砂", "豆腐砂", "矿砂"],
+      "exclude": ["已结束", "过期", "无货"]
+    }
+  ]
+}
