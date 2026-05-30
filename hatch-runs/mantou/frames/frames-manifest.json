@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\idle\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\idle\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\idle\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\idle\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\idle\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\idle\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-right",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\05.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\06.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-right\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-left",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\05.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\06.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running-left\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waving",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waving\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waving\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waving\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waving\\03.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "jumping",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\jumping\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\jumping\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\jumping\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\jumping\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\jumping\\04.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "failed",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\05.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\06.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\failed\\07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waiting",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waiting\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waiting\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waiting\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waiting\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waiting\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\waiting\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\running\\05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "review",
+      "frames": [
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\review\\00.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\review\\01.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\review\\02.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\review\\03.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\review\\04.png",
+        "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\frames\\review\\05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

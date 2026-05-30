@@ -1,0 +1,883 @@
+{
+    "schema_version":  1,
+    "created_at":  "2026-05-29T14:45:56.924539+00:00",
+    "run_dir":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou",
+    "primary_generation_skill":  "$imagegen",
+    "jobs":  [
+                 {
+                     "id":  "base",
+                     "kind":  "base-pet",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/base-pet.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/base.png",
+                     "depends_on":  [
+
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e7434-aa3c-7c30-9706-297b59b85617\\ig_01ea9d1055942266016a19a7aacb248191af78b33d115d8e9c.png",
+                     "completed_at":  "2026-05-29T14:53:19Z"
+                 },
+                 {
+                     "id":  "idle",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/idle.md",
+                     "retry_prompt_file":  "prompts/row-retries/idle.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/idle.png",
+                                              "role":  "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/idle.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "no deterministic derivation is configured for this state"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e743b-0ea7-7992-9de5-86233344285c\\ig_095be3df3e161cba016a19aaf417a88191945a2527f453bb44.png",
+                     "completed_at":  "2026-05-29T15:10:39Z"
+                 },
+                 {
+                     "id":  "running-right",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/running-right.md",
+                     "retry_prompt_file":  "prompts/row-retries/running-right.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/running-right.png",
+                                              "role":  "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/running-right.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "no deterministic derivation is configured for this state"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e743b-b2b1-7bd3-a367-7f4233880944\\ig_067890907498b174016a19aa8551c881918681ecc7459f6eb0.png",
+                     "completed_at":  "2026-05-29T15:10:39Z"
+                 },
+                 {
+                     "id":  "running-left",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/running-left.md",
+                     "retry_prompt_file":  "prompts/row-retries/running-left.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/running-left.png",
+                                              "role":  "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          },
+                                          {
+                                              "path":  "decoded/running-right.png",
+                                              "role":  "rightward gait reference for leftward row decision"
+                                          }
+                                      ],
+                     "output_path":  "decoded/running-left.png",
+                     "depends_on":  [
+                                        "base",
+                                        "running-right"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base",
+                                                  "running-right"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  true,
+                                               "may_derive_from":  "running-right",
+                                               "derivation":  "framewise-horizontal-mirror-preserving-order",
+                                               "requires_explicit_approval":  true,
+                                               "fallback_generation_skill":  "$imagegen"
+                                           },
+                     "mirror_policy":  {
+                                           "may_derive":  true,
+                                           "may_derive_from":  "running-right",
+                                           "derivation":  "framewise-horizontal-mirror-preserving-order",
+                                           "requires_explicit_approval":  true,
+                                           "fallback_generation_skill":  "$imagegen"
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e747d-ee25-7b71-879e-00afddb21157\\ig_0ad1a653966a18f1016a19bb1ae6a48191b43f5c07d8fb64cf.png",
+                     "derived_from":  "running-right",
+                     "completed_at":  "2026-05-29T16:16:54Z",
+                     "metadata":  {
+                                      "width":  2172,
+                                      "height":  724,
+                                      "mode":  "RGBA",
+                                      "format":  "PNG"
+                                  },
+                     "mirror_decision":  {
+                                             "approved":  true,
+                                             "approved_at":  "2026-05-29T15:12:08.994000+00:00",
+                                             "note":  "Mantou has no side-specific props or readable markings; mirroring preserves the same silver shaded cat identity while changing travel direction.",
+                                             "transform":  "framewise-horizontal-mirror-preserving-order"
+                                         },
+                     "repair_note":  "Regenerated after final QA found mirrored row clipping at left edge."
+                 },
+                 {
+                     "id":  "waving",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/waving.md",
+                     "retry_prompt_file":  "prompts/row-retries/waving.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/waving.png",
+                                              "role":  "layout guide for 4 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/waving.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "state requires its own generated animation semantics"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e744b-6702-76e2-8e3e-4b35ac88dfd5\\ig_0120e080006c371f016a19ad9439e08191a89072bb526c43d3.png",
+                     "completed_at":  "2026-05-29T15:17:34Z"
+                 },
+                 {
+                     "id":  "jumping",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/jumping.md",
+                     "retry_prompt_file":  "prompts/row-retries/jumping.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/jumping.png",
+                                              "role":  "layout guide for 5 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/jumping.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "state requires its own generated animation semantics"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\selected\\jumping.png",
+                     "completed_at":  "2026-05-29T15:19:39Z"
+                 },
+                 {
+                     "id":  "failed",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/failed.md",
+                     "retry_prompt_file":  "prompts/row-retries/failed.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/failed.png",
+                                              "role":  "layout guide for 8 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/failed.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "state requires its own generated animation semantics"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e7452-9760-7f30-9aee-edf5520fc61b\\ig_08bdf022ece420ec016a19af5612448191add677034ecd7518.png",
+                     "completed_at":  "2026-05-29T15:24:49Z"
+                 },
+                 {
+                     "id":  "waiting",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/waiting.md",
+                     "retry_prompt_file":  "prompts/row-retries/waiting.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/waiting.png",
+                                              "role":  "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/waiting.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "state requires its own generated animation semantics"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e7453-1ab2-7d20-9c17-4e8e043cae69\\ig_0d5609d298de815a016a19af7e3aa48191b4514c56c4a6cd5c.png",
+                     "completed_at":  "2026-05-29T15:26:53Z"
+                 },
+                 {
+                     "id":  "running",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/running.md",
+                     "retry_prompt_file":  "prompts/row-retries/running.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/running.png",
+                                              "role":  "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/running.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "state requires its own generated animation semantics"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "C:\\Users\\ZhengWei\\.codex\\generated_images\\019e7459-2bf1-7ab3-8f50-561dfe56b659\\ig_0ce215b6d9fad780016a19b10db0dc8191ab757c445bac2af8.png",
+                     "completed_at":  "2026-05-29T15:33:18Z"
+                 },
+                 {
+                     "id":  "review",
+                     "kind":  "row-strip",
+                     "status":  "complete",
+                     "prompt_file":  "prompts/rows/review.md",
+                     "retry_prompt_file":  "prompts/row-retries/review.md",
+                     "input_images":  [
+                                          {
+                                              "path":  "references\\reference-01.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-02.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-03.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-04.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-05.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-06.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-07.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-08.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-09.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-10.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-11.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references\\reference-12.jpg",
+                                              "role":  "pet reference"
+                                          },
+                                          {
+                                              "path":  "references/layout-guides/review.png",
+                                              "role":  "layout guide for 6 frame slots; use for spacing only, do not copy guide lines"
+                                          },
+                                          {
+                                              "path":  "references/canonical-base.png",
+                                              "role":  "canonical identity reference"
+                                          }
+                                      ],
+                     "output_path":  "decoded/review.png",
+                     "depends_on":  [
+                                        "base"
+                                    ],
+                     "generation_skill":  "$imagegen",
+                     "requires_grounded_generation":  true,
+                     "allow_prompt_only_generation":  false,
+                     "identity_reference_paths":  [
+                                                      "references/canonical-base.png"
+                                                  ],
+                     "parallelizable_after":  [
+                                                  "base"
+                                              ],
+                     "derivation_policy":  {
+                                               "may_derive":  false,
+                                               "reason":  "state requires its own generated animation semantics"
+                                           },
+                     "mirror_policy":  {
+
+                                       },
+                     "source_path":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\selected\\review-selected-output-v2.png",
+                     "completed_at":  "2026-05-29T15:45:52Z"
+                 }
+             ]
+}

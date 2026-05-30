@@ -1,0 +1,309 @@
+{
+  "pet_id": "mantou",
+  "display_name": "\u9992\u5934",
+  "description": "\u9992\u5934\u662f\u4e00\u53ea\u94f6\u6e10\u5c42\u5706\u8138\u5c0f\u732b\uff0c\u7eff\u8272\u773c\u775b\uff0c\u7c89\u9f3b\u5b50\uff0c\u4e56\u5de7\u53ef\u7231\uff0c\u559c\u6b22\u7761\u89c9\u548c\u53d1\u5446\u3002.",
+  "created_at": "2026-05-29T14:45:56.900425+00:00",
+  "atlas": {
+    "columns": 8,
+    "rows": 9,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 1872
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "calm resting, breathing, and blinking loop"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward drag movement loop"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward drag movement loop"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting or attention gesture"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "hover or playful jump"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "blocked, failed, or cancelled reaction"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "waiting for approval, help, or user input"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "active task work or processing"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "ready or completed output review"
+    }
+  ],
+  "layout_guides": [
+    {
+      "state": "idle",
+      "path": "references\\layout-guides\\idle.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-right",
+      "path": "references\\layout-guides\\running-right.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running-left",
+      "path": "references\\layout-guides\\running-left.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waving",
+      "path": "references\\layout-guides\\waving.png",
+      "width": 768,
+      "height": 208,
+      "frames": 4,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "jumping",
+      "path": "references\\layout-guides\\jumping.png",
+      "width": 960,
+      "height": 208,
+      "frames": 5,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "failed",
+      "path": "references\\layout-guides\\failed.png",
+      "width": 1536,
+      "height": 208,
+      "frames": 8,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "waiting",
+      "path": "references\\layout-guides\\waiting.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "running",
+      "path": "references\\layout-guides\\running.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    },
+    {
+      "state": "review",
+      "path": "references\\layout-guides\\review.png",
+      "width": 1152,
+      "height": 208,
+      "frames": 6,
+      "cell_width": 192,
+      "cell_height": 208,
+      "safe_margin_x": 18,
+      "safe_margin_y": 16,
+      "usage": "layout guide input only; do not copy visible guide lines into generated sprite strips"
+    }
+  ],
+  "references": [
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-01.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\854b025f06c7b8a8a0d2a91c049320af.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-01.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-02.jpg",
+      "width": 1706,
+      "height": 1279,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\17705aa17db9e2656c3b79bad7450fe6.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-02.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-03.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\27382cd49486bcfd04be8a8fb13cd5c6.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-03.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-04.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\f28b4fd25f47de4ddf450141c53474a3.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-04.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-05.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\88416ca6563748c27629404de69a1bbe.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-05.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-06.jpg",
+      "width": 1706,
+      "height": 1279,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\d405dc5a3509e8d48342c12e1f76bac1.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-06.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-07.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\f6ae017c21c7614d067177a57d212b5d.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-07.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-08.jpg",
+      "width": 1024,
+      "height": 1820,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\06c39b02c1b88869566b896736fcd1d3.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-08.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-09.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\e0e10323cbe70002be0761e3f8d66f81.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-09.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-10.jpg",
+      "width": 1120,
+      "height": 2490,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\904a1146ebbf288a9136b70d79681521.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-10.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-11.jpg",
+      "width": 1279,
+      "height": 1706,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\c6f83a9277f31002586f47d233f38086.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-11.jpg"
+    },
+    {
+      "path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-12.jpg",
+      "width": 1706,
+      "height": 1279,
+      "mode": "RGB",
+      "format": "JPEG",
+      "source_path": "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\f648186e442ef1e0ad739840ae75ba92.jpg",
+      "copied_path": "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\references\\reference-12.jpg"
+    }
+  ],
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "name": "user-selected",
+    "selection": "manual"
+  },
+  "pet_notes": "A cute silver shaded round-faced house cat named Mantou, green eyes, pink nose, plush white and grey fur, calm obedient sleepy personality, often staring quietly, soft adorable sticker style.",
+  "style_preset": "sticker",
+  "style_notes": "soft cute sticker style, rounded compact whole-body silhouette, clean edges, readable at tiny desktop pet size, preserve silver shaded fur, green eyes, pink nose, sleepy blank stare",
+  "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: soft cute sticker style, rounded compact whole-body silhouette, clean edges, readable at tiny desktop pet size, preserve silver shaded fur, green eyes, pink nose, sleepy blank stare.",
+  "brand_name": "",
+  "brand_brief": "",
+  "brand_sources": [],
+  "pet_safe_style": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction.",
+  "primary_generation_skill": "$imagegen"
+}

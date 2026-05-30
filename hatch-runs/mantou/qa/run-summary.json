@@ -1,0 +1,14 @@
+{
+    "ok":  true,
+    "run_dir":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou",
+    "spritesheet":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\final\\spritesheet.webp",
+    "validation":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\final\\validation.json",
+    "contact_sheet":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\qa\\contact-sheet.png",
+    "review":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\qa\\review.json",
+    "package":  "C:\\Users\\ZhengWei\\.codex\\pets\\mantou",
+    "workspace_package":  "E:\\CodexProject\\CatBaby\\hatch-runs\\mantou\\package\\mantou",
+    "installed_to_target":  true,
+    "installed_format":  "webp",
+    "webp_created":  true,
+    "python":  "D:\\Anaconda\\envs\\py312\\python.exe"
+}
