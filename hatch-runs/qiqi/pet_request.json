@@ -1,0 +1,258 @@
+{
+    "pet_id":  "qiqi",
+    "display_name":  "七七",
+    "description":  "七七是一只活泼的银虎斑小猫，白胸白爪、琥珀大眼，爱吃虾，喜欢玩球跑酷，安静时会趴在猫窝里看窗外。",
+    "created_at":  "2026-05-31T00:25:51.387532+00:00",
+    "atlas":  {
+                  "columns":  8,
+                  "rows":  9,
+                  "cell_width":  192,
+                  "cell_height":  208,
+                  "width":  1536,
+                  "height":  1872
+              },
+    "rows":  [
+                 {
+                     "state":  "idle",
+                     "row":  0,
+                     "frames":  6,
+                     "purpose":  "calm resting, breathing, and blinking loop"
+                 },
+                 {
+                     "state":  "running-right",
+                     "row":  1,
+                     "frames":  8,
+                     "purpose":  "rightward drag movement loop"
+                 },
+                 {
+                     "state":  "running-left",
+                     "row":  2,
+                     "frames":  8,
+                     "purpose":  "leftward drag movement loop"
+                 },
+                 {
+                     "state":  "waving",
+                     "row":  3,
+                     "frames":  4,
+                     "purpose":  "greeting or attention gesture"
+                 },
+                 {
+                     "state":  "jumping",
+                     "row":  4,
+                     "frames":  5,
+                     "purpose":  "hover or playful jump"
+                 },
+                 {
+                     "state":  "failed",
+                     "row":  5,
+                     "frames":  8,
+                     "purpose":  "blocked, failed, or cancelled reaction"
+                 },
+                 {
+                     "state":  "waiting",
+                     "row":  6,
+                     "frames":  6,
+                     "purpose":  "waiting for approval, help, or user input"
+                 },
+                 {
+                     "state":  "running",
+                     "row":  7,
+                     "frames":  6,
+                     "purpose":  "active task work or processing"
+                 },
+                 {
+                     "state":  "review",
+                     "row":  8,
+                     "frames":  6,
+                     "purpose":  "ready or completed output review"
+                 }
+             ],
+    "layout_guides":  [
+                          {
+                              "state":  "idle",
+                              "path":  "references\\layout-guides\\idle.png",
+                              "width":  1152,
+                              "height":  208,
+                              "frames":  6,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "running-right",
+                              "path":  "references\\layout-guides\\running-right.png",
+                              "width":  1536,
+                              "height":  208,
+                              "frames":  8,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "running-left",
+                              "path":  "references\\layout-guides\\running-left.png",
+                              "width":  1536,
+                              "height":  208,
+                              "frames":  8,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "waving",
+                              "path":  "references\\layout-guides\\waving.png",
+                              "width":  768,
+                              "height":  208,
+                              "frames":  4,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "jumping",
+                              "path":  "references\\layout-guides\\jumping.png",
+                              "width":  960,
+                              "height":  208,
+                              "frames":  5,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "failed",
+                              "path":  "references\\layout-guides\\failed.png",
+                              "width":  1536,
+                              "height":  208,
+                              "frames":  8,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "waiting",
+                              "path":  "references\\layout-guides\\waiting.png",
+                              "width":  1152,
+                              "height":  208,
+                              "frames":  6,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "running",
+                              "path":  "references\\layout-guides\\running.png",
+                              "width":  1152,
+                              "height":  208,
+                              "frames":  6,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          },
+                          {
+                              "state":  "review",
+                              "path":  "references\\layout-guides\\review.png",
+                              "width":  1152,
+                              "height":  208,
+                              "frames":  6,
+                              "cell_width":  192,
+                              "cell_height":  208,
+                              "safe_margin_x":  18,
+                              "safe_margin_y":  16,
+                              "usage":  "layout guide input only; do not copy visible guide lines into generated sprite strips"
+                          }
+                      ],
+    "references":  [
+                       {
+                           "path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-01.jpg",
+                           "width":  1279,
+                           "height":  1706,
+                           "mode":  "RGB",
+                           "format":  "JPEG",
+                           "source_path":  "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\f325f63afbc041f8ca8fc4fd845e761a.jpg",
+                           "copied_path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-01.jpg"
+                       },
+                       {
+                           "path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-02.jpg",
+                           "width":  1279,
+                           "height":  1706,
+                           "mode":  "RGB",
+                           "format":  "JPEG",
+                           "source_path":  "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\1f7e7efbc648a401b1aa4005ef68419d.jpg",
+                           "copied_path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-02.jpg"
+                       },
+                       {
+                           "path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-03.jpg",
+                           "width":  1440,
+                           "height":  1080,
+                           "mode":  "RGB",
+                           "format":  "JPEG",
+                           "source_path":  "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\0861e0809f5ae3d74eb91975264f5fac.jpg",
+                           "copied_path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-03.jpg"
+                       },
+                       {
+                           "path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-04.jpg",
+                           "width":  1280,
+                           "height":  1591,
+                           "mode":  "RGB",
+                           "format":  "JPEG",
+                           "source_path":  "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\cc8802ffe6a2ac034e5b843db6e49c4b.jpg",
+                           "copied_path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-04.jpg"
+                       },
+                       {
+                           "path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-05.jpg",
+                           "width":  1440,
+                           "height":  1160,
+                           "mode":  "RGB",
+                           "format":  "JPEG",
+                           "source_path":  "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\66fde455b0072356f10f5f23b1ecfb1a.jpg",
+                           "copied_path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-05.jpg"
+                       },
+                       {
+                           "path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-06.jpg",
+                           "width":  1280,
+                           "height":  1280,
+                           "mode":  "RGB",
+                           "format":  "JPEG",
+                           "source_path":  "E:\\WeChatFiles\\xwechat_files\\mengtianlun002_9a94\\temp\\RWTemp\\2026-05\\9e20f478899dc29eb19741386f9343c8\\40ede4861b465666d8f9838cd9f1cc05.jpg",
+                           "copied_path":  "E:\\CodexProject\\hatch-runs\\qiqi\\references\\reference-06.jpg"
+                       }
+                   ],
+    "chroma_key":  {
+                       "hex":  "#FF00FF",
+                       "rgb":  [
+                                   255,
+                                   0,
+                                   255
+                               ],
+                       "name":  "magenta",
+                       "selection":  "auto",
+                       "score":  207.53
+                   },
+    "pet_notes":  "Qiqi is a lively silver tabby-and-white young cat with amber round eyes, white chest and white paws, dark forehead stripes, short plush fur, playful parkour energy, loves shrimp and chasing soft balls; calm pose is loafing or lying in a round cat bed by the window.",
+    "style_preset":  "sticker",
+    "style_notes":  "match Mantou output: soft cute sticker style, rounded compact whole-body silhouette, crisp clean outline, readable at tiny desktop pet size; preserve Qiqi silver tabby stripes, white chest and paws, amber eyes, small pink-brown nose, lively alert expression; optional tiny shrimp or soft ball may appear only when state-appropriate and attached/held, no text.",
+    "style_contract":  "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: match Mantou output: soft cute sticker style, rounded compact whole-body silhouette, crisp clean outline, readable at tiny desktop pet size; preserve Qiqi silver tabby stripes, white chest and paws, amber eyes, small pink-brown nose, lively alert expression; optional tiny shrimp or soft ball may appear only when state-appropriate and attached/held, no text..",
+    "brand_name":  "",
+    "brand_brief":  "",
+    "brand_sources":  [
+
+                      ],
+    "pet_safe_style":  "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction.",
+    "primary_generation_skill":  "$imagegen"
+}

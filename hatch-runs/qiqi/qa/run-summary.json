@@ -1,0 +1,10 @@
+{
+    "ok":  true,
+    "run_dir":  "E:\\CodexProject\\hatch-runs\\qiqi",
+    "spritesheet":  "E:\\CodexProject\\hatch-runs\\qiqi\\final\\spritesheet.webp",
+    "validation":  "E:\\CodexProject\\hatch-runs\\qiqi\\final\\validation.json",
+    "contact_sheet":  "E:\\CodexProject\\hatch-runs\\qiqi\\qa\\contact-sheet.png",
+    "review":  "E:\\CodexProject\\hatch-runs\\qiqi\\qa\\review.json",
+    "package":  "E:\\CodexProject\\hatch-runs\\qiqi\\package\\qiqi",
+    "codex_pet_package":  "C:\\Users\\ZhengWei\\.codex\\pets\\qiqi"
+}

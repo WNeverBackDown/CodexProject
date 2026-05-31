@@ -1,0 +1,7 @@
+Create one clean full-body reference sprite for Codex pet qiqi.
+
+Pet identity: Qiqi is a lively silver tabby-and-white young cat with amber round eyes, white chest and white paws, dark forehead stripes, short plush fur, playful parkour energy, loves shrimp and chasing soft balls; calm pose is loafing or lying in a round cat bed by the window..
+Style: Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `sticker`: Polished sticker mascot with bold clean shapes, crisp outline, flat colors, and minimal highlight detail. User style notes: match Mantou output: soft cute sticker style, rounded compact whole-body silhouette, crisp clean outline, readable at tiny desktop pet size; preserve Qiqi silver tabby stripes, white chest and paws, amber eyes, small pink-brown nose, lively alert expression; optional tiny shrimp or soft ball may appear only when state-appropriate and attached/held, no text..
+
+
+Place a single centered pose on a perfectly flat pure magenta #FF00FF chroma-key background. Keep the full pet visible, compact, readable at 192x208, and easy to animate. Preserve approved reference identity cues. No scenery, text, borders, checkerboard transparency, shadows, glows, detached effects, or extra props. Keep #FF00FF and close colors out of the pet, props, highlights, and effects.
