@@ -1,0 +1,6 @@
+-- DataPulse 使用 SQLAlchemy 自动建表。该文件保留给生产 DBA 审阅和迁移工具接入。
+-- 主要表：
+-- users, dashboard_metrics, dashboard_data
+-- ai_models, analysis_history, ai_database_options, ai_table_cache, ai_drill_down_sessions
+-- rules_chain, rules_chain_history, rules_chain_step_history, rules_chain_split_history
+-- portrait_behavior_configs, portrait_monitor_imei, portrait_user_behavior_data
