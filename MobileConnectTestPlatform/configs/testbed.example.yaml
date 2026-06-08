@@ -1,0 +1,40 @@
+android:
+  adb_path: adb
+  default_serial: ""
+  devices:
+    - label: dut
+      serial: ""
+      role: phone_under_test
+    - label: peer
+      serial: ""
+      role: peer_phone
+
+appium:
+  server_url: "http://127.0.0.1:4723"
+  capabilities:
+    platformName: Android
+    automationName: UiAutomator2
+    noReset: true
+
+artifacts:
+  root: artifacts
+  logcat_tail_lines: 500
+
+ai:
+  engine: local_rules
+  endpoint: ""
+
+privacy:
+  redact: true
+
+connection_scenarios:
+  bluetooth_smoke:
+    enabled: true
+    expected_state: "enabled_or_disabled"
+  car_connect_template:
+    enabled: false
+    target: "android_auto_or_carplay_or_aaos"
+
+analysis:
+  engine: local_rules
+  fail_on_high_risk: false

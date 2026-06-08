@@ -1,0 +1,5 @@
+06-06 10:01:11.123  1200  1300 I CarProjection: projection start request from phone
+06-06 10:01:13.456  1200  1300 E CarProjection: projection fail during auth handshake
+06-06 10:01:14.001  2200  2300 W btif_av: disconnect reason=0x13 peer=AA:BB:CC:DD:EE:FF
+06-06 10:01:15.789  3300  3400 W BluetoothGatt: GATT timeout while discovering services
+06-06 10:01:16.000  1200  1300 I DeviceInfo: serial=ABC123456789 owner=13800138000 vin=LSVABCD12N1234567
